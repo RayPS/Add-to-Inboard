@@ -27,6 +27,10 @@
 				<string>inject.js</string>
 			</array>
 		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>inject.css</string>
+		</array>
 	</dict>
 	<key>Description</key>
 	<string>Directly add image to Inboard for Mac.</string>

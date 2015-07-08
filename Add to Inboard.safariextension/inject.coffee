@@ -11,6 +11,9 @@ if window.top == window
             </div>'
 
     document.querySelector('.rebound').parentNode.insertAdjacentHTML('beforebegin', html)
-    
+
     document.querySelector('.meta-inboard').addEventListener('click', addToInboard)
+
+
+
 
