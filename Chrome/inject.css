@@ -1,0 +1,9 @@
+.meta-inboard {
+    background-image: url(icon-dribbble-action.png) !important;
+    background-position: 11px 10px !important;
+    background-size: 16px !important;
+}
+
+.meta-inboard:hover {
+    background-position-y: -38px !important;
+}
