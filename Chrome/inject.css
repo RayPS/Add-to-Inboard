@@ -1,5 +1,5 @@
 .meta-inboard {
-    background-image: url(icon-dribbble-action.png) !important;
+    background-image: url(chrome-extension://__MSG_@@extension_id__/icon-dribbble-action.png) !important;
     background-position: 11px 10px !important;
     background-size: 16px !important;
 }
