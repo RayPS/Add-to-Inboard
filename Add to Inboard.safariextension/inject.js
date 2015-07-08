@@ -6,7 +6,7 @@ if (window.top === window){
                 </div>\
             </div>'
 
-    document.querySelector('.rebound').parentNode.insertAdjacentHTML('beforebegin', html)
+    document.querySelector('.bucket').parentNode.insertAdjacentHTML('afterend', html)
 
     document.querySelector('.meta-inboard').addEventListener('click', function() {
       src = document.querySelector('.the-shot .single-img img').getAttribute('src')
