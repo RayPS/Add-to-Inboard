@@ -33,7 +33,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Directly add image to Inboard for Mac.</string>
+	<string>A Browser Extension for Inboard App</string>
 	<key>DeveloperIdentifier</key>
 	<string>MGAF98TG33</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -54,5 +54,7 @@
 	</dict>
 	<key>Update Manifest URL</key>
 	<string>http://rayps.qiniudn.com/Safari_Extension_Update.plist</string>
+	<key>Website</key>
+	<string>https://github.com/RayPS/Add-to-Inboard</string>
 </dict>
 </plist>

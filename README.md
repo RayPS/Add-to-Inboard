@@ -1,2 +1,8 @@
-# Add-to-Inboard
-Safari Extension directly add image to Inboard for Mac.
+![readme.jpg](readme.jpg)
+
+
+<center>
+    <a href="Add to Inboard.safariextz">
+        <img src="safari.png" alt="Download for Safari">
+    </a>
+</center>
