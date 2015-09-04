@@ -28,6 +28,7 @@ if (window.top === window){
       for(name in params) {
         inboard_url += name + '=' + encodeURIComponent(params[name]) + '&'
       }
+      console.log(inboard_url)
       window.open(inboard_url, '_self')
     })
   }

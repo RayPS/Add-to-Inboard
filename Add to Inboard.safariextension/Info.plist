@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>rayps</string>
 	<key>Builder Version</key>
-	<string>10600.7.12</string>
+	<string>10600.8.9</string>
 	<key>CFBundleDisplayName</key>
 	<string>Add to Inboard</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
