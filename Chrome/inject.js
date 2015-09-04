@@ -9,7 +9,18 @@ if (window.top === window){
     document.querySelector('.bucket').parentNode.insertAdjacentHTML('afterend', html)
 
     document.querySelector('.meta-inboard').addEventListener('click', function() {
-      src = document.querySelector('.the-shot .single-img img').getAttribute('src')
-      window.open('inboard://import?url=' + src, '_self')
+      url = document.querySelector('.the-shot .single-img img').getAttribute('src')
+      title = document.querySelector('#screenshot-title').innerText
+      web_url = window.location.href
+      params = {
+        url,
+        title,
+        web_url
+      }
+      url = 'inboard://import?'
+      for(name in params) {
+        url += name + '=' + encodeURIComponent(params[name]) + '&'
+      }
+      window.open(url, '_self')
     })
 }
