@@ -1,7 +1,7 @@
 {
   "name": "Add to Inboard",
   "description": "A Browser Extension for Inboard App",
-  "version": "1.2",
+  "version": "1.2.1",
   "permissions": [
     "activeTab",
     "*://*.dribbble.com/*"

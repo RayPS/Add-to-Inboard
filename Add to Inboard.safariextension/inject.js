@@ -1,8 +1,8 @@
 if (window.top === window){
 
   var mob = new MutationObserver(function(elms) {
-    var bucket = elms[0].target.querySelector('.bucket')
-    addButton(bucket)
+    var like = elms[0].target.querySelector('.meta-act .fav')
+    addButton(like)
   })
 
   var html = '<div class="meta-act">\
@@ -11,8 +11,8 @@ if (window.top === window){
         </div>\
       </div>'
 
-  var addButton = function(bucket) {
-    bucket.parentNode.insertAdjacentHTML('afterend', html)
+  var addButton = function(like) {
+    like.parentNode.insertAdjacentHTML('afterend', html)
 
     document.querySelector('.meta-inboard').addEventListener('click', function() {
       var url = document.querySelector('.the-shot .single-img img').getAttribute('src'),
@@ -38,7 +38,7 @@ if (window.top === window){
     })
   }
 
-  if (document.querySelector('.bucket') != null) {
-    addButton(document.querySelector('.bucket'))
+  if (document.querySelector('.meta-act .fav') != null) {
+    addButton(document.querySelector('.meta-act .fav'))
   }
 }
